@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import { AppContainer, setConfig } from 'react-hot-loader';
 import App from './App';
-
-setConfig({ integratedResolver: false });
+import registerServiceWorker from './registerServiceWorker';
+import { AppContainer } from 'react-hot-loader';
+require('react-hot-loader/patch');
 
 ReactDOM.render(
   <AppContainer>
@@ -12,6 +11,7 @@ ReactDOM.render(
   </AppContainer>,
   document.getElementById('root')
 );
+registerServiceWorker();
 
 if (module.hot) {
   module.hot.accept('./App', () => {
