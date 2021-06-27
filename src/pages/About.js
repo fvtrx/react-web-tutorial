@@ -60,7 +60,7 @@ function About() {
           title="Travel"
           source="../images/img-9.jpg"
           description="Explore the hidden waterfall deep in the Amazon jungle"
-          path="/services"
+          path="/"
           alternative="Mountain"
           category="#travel"
         />
@@ -69,7 +69,7 @@ function About() {
           title="Travel"
           source="../images/img-8.jpg"
           description="Explore the hidden waterfall deep in the Amazon jungle"
-          path="/services"
+          path="/"
           alternative="Mountain"
           category="#travel"
         />
@@ -78,7 +78,7 @@ function About() {
           title="Travel"
           source="../images/img-9.jpg"
           description="Explore the hidden waterfall deep in the Amazon jungle"
-          path="/services"
+          path="/"
           alternative="Mountain"
           category="#travel"
         />
